@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\Point.cs" />
+    <Compile Include="Entity\Line2d.cs" />
+    <Compile Include="Entity\Point2d.cs" />
+    <Compile Include="Entity\Point3d.cs" />
     <Compile Include="Operations\Distance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Theorem\Armstrong.cs" />

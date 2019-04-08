@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GeomLib
 {
-    public class Point
+    public class Point3d
     {
         private double _x;
         private double _y;
@@ -15,14 +15,14 @@ namespace GeomLib
         /// <summary>
         /// default constructor
         /// </summary>
-        public Point()
+        public Point3d()
         {
             _x = 0.0;
             _y = 0.0;
             _z = 0.0;
         }
 
-        public Point(double x, double y, double z)
+        public Point3d(double x, double y, double z)
         {
             _x = x;
             _y = y;
@@ -35,7 +35,7 @@ namespace GeomLib
         /// <param name="ptA"></param>
         /// <param name="ptB"></param>
         /// <returns></returns>
-        public double DistanceBetween(Point ptA, Point ptB)
+        public double DistanceBetween(Point3d ptA, Point3d ptB)
         {
             var dist = 0.0;
             try

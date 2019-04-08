@@ -14,7 +14,7 @@ namespace GeomLib.Operations
         /// <param name="ptA">point 1</param>
         /// <param name="ptB">point 2</param>
         /// <returns></returns>
-        public double DistanceBetween(Point ptA, Point ptB)
+        public double DistanceBetween(Point3d ptA, Point3d ptB)
         {
             var dist = 0.0;
             try
