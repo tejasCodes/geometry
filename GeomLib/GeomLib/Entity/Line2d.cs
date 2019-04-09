@@ -50,6 +50,10 @@ namespace GeomLib.Entity
             return slope;
         }
 
+        /// <summary>
+        /// compute the equation of line
+        /// </summary>
+        /// <returns>returns the equation of the line</returns>
         public string Equation()
         {
             var equation = "";
@@ -70,5 +74,24 @@ namespace GeomLib.Entity
             return equation;
         }
 
+        public void SetPointA(Point2d ptA)
+        {
+            _ptA = ptA;
+        }
+
+        public void SetPointB(Point2d ptB)
+        {
+            _ptB = ptB;
+        }
+
+        public Point2d GetPtA()
+        {
+            return _ptA;
+        }
+
+        public Point2d GetPtB()
+        {
+            return _ptB;
+        }
     }
 }
